@@ -1,0 +1,7 @@
+
+
+create table NUEVA_TAB AS (
+    select * from FIVETRAN.AMPLITUDE.EVENT_AMPLITUDE_ATTRIBUTION_ID limit 100
+);
+
+SELECT * FROM NUEVA_TAB;

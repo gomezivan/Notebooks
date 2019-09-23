@@ -1,0 +1,16 @@
+select * from ads.AR_LOGSTASH_PRODUCT_EVENT limit 100
+
+
+select count(*) from AMPLITUDE.EVENT
+select * from AMPLITUDE.EVENT limit 100
+
+select count(*) from AMPLITUDE.EVENT_AMPLITUDE_ATTRIBUTION_ID
+
+select * from AMPLITUDE.EVENT_AMPLITUDE_ATTRIBUTION_ID limit 100
+
+select month(CLIENT_EVENT_TIME) from AMPLITUDE.EVENT_AMPLITUDE_ATTRIBUTION_ID
+
+
+select count(*) from AMPLITUDE.EVENT_TYPE
+
+select count(*) from AMPLITUDE.FIVETRAN_AUDIT
